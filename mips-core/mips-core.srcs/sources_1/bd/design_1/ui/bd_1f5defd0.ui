@@ -1,0 +1,226 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_ScaleFactor":"1.0",
+   "Addressing View_TopLeft":"-188,-214",
+   "Backup view_ScaleFactor":"0.156007",
+   "Backup view_TopLeft":"-135,-487",
+   "Color Coded_ScaleFactor":"0.152198",
+   "Color Coded_TopLeft":"-131,-539",
+   "Default View_ScaleFactor":"0.625765",
+   "Default View_TopLeft":"4236,625",
+   "Display-PortTypeOthers":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ScaleFactor":"0.163987",
+   "Grouping and No Loops_TopLeft":"-134,-274",
+   "Interfaces View_ScaleFactor":"1.0",
+   "Interfaces View_TopLeft":"-188,-214",
+   "Reduced Jogs_ScaleFactor":"0.141631",
+   "Reduced Jogs_TopLeft":"-134,-424",
+   "comment_1":"Counter here for mul/div, Or outputs to controllers. use the enable to is stage registers
+another register for which rob spot is calling. mauybe also like an "in progres" register",
+   "comment_2":"counter for mul/div. use is stage register enable for enable for this. 
+also have in progress/busy register. also register for which rob location is clalling this. 
+or outputs at end for ready.",
+   "commentid":"comment_1|comment_2|",
+   "font_comment_1":"14",
+   "font_comment_2":"14",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -20 -y 380 -defaultsOSRD
+preplace port port-id_zero -pg 1 -lvl 0 -x -20 -y 730 -defaultsOSRD
+preplace portBus zeros8 -pg 1 -lvl 0 -x -20 -y 20 -defaultsOSRD
+preplace inst inst_mem_0 -pg 1 -lvl 11 -x 3880 -y 1590 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 10 -x 3480 -y 1430 -defaultsOSRD
+preplace inst reg_file_0 -pg 1 -lvl 15 -x 5690 -y 650 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 14 -x 5140 -y 1020 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 14 -x 5140 -y 920 -defaultsOSRD
+preplace inst sign_extend_0 -pg 1 -lvl 15 -x 5690 -y 1660 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 14 -x 5140 -y 1670 -defaultsOSRD
+preplace inst tags_and_ready_0 -pg 1 -lvl 15 -x 5690 -y 940 -defaultsOSRD
+preplace inst reorder_buffer_0 -pg 1 -lvl 16 -x 6320 -y 1000 -defaultsOSRD
+preplace inst rs_table_0 -pg 1 -lvl 14 -x 5140 -y 1210 -defaultsOSRD
+preplace inst inputA_0 -pg 1 -lvl 18 -x 6990 -y 1340 -defaultsOSRD
+preplace inst inputB_0 -pg 1 -lvl 18 -x 6990 -y 1440 -defaultsOSRD
+preplace inst inputA_1 -pg 1 -lvl 9 -x 3170 -y 1110 -defaultsOSRD
+preplace inst inputA_2 -pg 1 -lvl 10 -x 3480 -y 1190 -defaultsOSRD
+preplace inst inputA_3 -pg 1 -lvl 10 -x 3480 -y 680 -defaultsOSRD
+preplace inst inputB_1 -pg 1 -lvl 10 -x 3480 -y 950 -defaultsOSRD
+preplace inst inputB_2 -pg 1 -lvl 10 -x 3480 -y 1290 -defaultsOSRD
+preplace inst inputB_3 -pg 1 -lvl 10 -x 3480 -y 780 -defaultsOSRD
+preplace inst mux4_0 -pg 1 -lvl 7 -x 2560 -y 1270 -defaultsOSRD
+preplace inst mux4_1 -pg 1 -lvl 10 -x 3480 -y 340 -defaultsOSRD
+preplace inst data_mem_0 -pg 1 -lvl 11 -x 3880 -y 970 -defaultsOSRD
+preplace inst adder_0 -pg 1 -lvl 19 -x 7220 -y 1430 -defaultsOSRD
+preplace inst adder_1 -pg 1 -lvl 10 -x 3480 -y 1060 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 7 -x 2560 -y 1440 -defaultsOSRD
+preplace inst sign_extend_1 -pg 1 -lvl 8 -x 2870 -y 1440 -defaultsOSRD
+preplace inst alu0_0 -pg 1 -lvl 11 -x 3880 -y 1460 -defaultsOSRD
+preplace inst xlslice_6 -pg 1 -lvl 9 -x 3170 -y 1640 -defaultsOSRD
+preplace inst xlslice_7 -pg 1 -lvl 9 -x 3170 -y 1740 -defaultsOSRD
+preplace inst instr_translator_0 -pg 1 -lvl 12 -x 4400 -y 1540 -defaultsOSRD
+preplace inst mult_div_0 -pg 1 -lvl 11 -x 3880 -y 750 -defaultsOSRD
+preplace inst cdb_0 -pg 1 -lvl 15 -x 5690 -y 1240 -defaultsOSRD
+preplace inst mux_0 -pg 1 -lvl 13 -x 4750 -y 410 -defaultsOSRD
+preplace inst mux_1 -pg 1 -lvl 13 -x 4750 -y 620 -defaultsOSRD
+preplace inst mux_2 -pg 1 -lvl 14 -x 5140 -y 740 -defaultsOSRD
+preplace inst cm_sel_1 -pg 1 -lvl 13 -x 4750 -y 760 -defaultsOSRD
+preplace inst cm_sel_0 -pg 1 -lvl 12 -x 4400 -y 770 -defaultsOSRD
+preplace inst add4_0 -pg 1 -lvl 7 -x 2560 -y 650 -defaultsOSRD
+preplace inst pc -pg 1 -lvl 9 -x 3170 -y 740 -defaultsOSRD
+preplace inst if_ds_register -pg 1 -lvl 13 -x 4750 -y 1570 -defaultsOSRD
+preplace inst load_input_reg -pg 1 -lvl 17 -x 6770 -y 1410 -defaultsOSRD
+preplace inst store_input_reg -pg 1 -lvl 8 -x 2870 -y 960 -defaultsOSRD
+preplace inst store_immediate_reg -pg 1 -lvl 9 -x 3170 -y 1470 -defaultsOSRD
+preplace inst alu_input_reg -pg 1 -lvl 9 -x 3170 -y 1260 -defaultsOSRD
+preplace inst alu_op_reg -pg 1 -lvl 10 -x 3480 -y 1760 -defaultsOSRD
+preplace inst alu_func_reg -pg 1 -lvl 10 -x 3480 -y 1600 -defaultsOSRD
+preplace inst md_input_reg -pg 1 -lvl 9 -x 3170 -y 960 -defaultsOSRD
+preplace inst md_op_reg -pg 1 -lvl 10 -x 3480 -y 2100 -defaultsOSRD
+preplace inst md_func_reg -pg 1 -lvl 10 -x 3480 -y 1940 -defaultsOSRD
+preplace inst is_stage_controller -pg 1 -lvl 1 -x 260 -y 330 -defaultsOSRD
+preplace inst ex_stage_controller -pg 1 -lvl 2 -x 760 -y 420 -defaultsOSRD
+preplace inst cm_stage_controller -pg 1 -lvl 3 -x 1260 -y 510 -defaultsOSRD
+preplace inst load_output_ram -pg 1 -lvl 12 -x 4400 -y 110 -defaultsOSRD
+preplace inst alu_output_ram -pg 1 -lvl 12 -x 4400 -y 380 -defaultsOSRD
+preplace inst fpu_output_ram -pg 1 -lvl 12 -x 4400 -y 620 -defaultsOSRD
+preplace inst last_pc -pg 1 -lvl 15 -x 5690 -y 1530 -defaultsOSRD
+preplace inst rt_stage_controller_0 -pg 1 -lvl 4 -x 1660 -y 600 -defaultsOSRD
+preplace inst precise_state -pg 1 -lvl 5 -x 1980 -y 670 -defaultsOSRD
+preplace inst add4_1 -pg 1 -lvl 6 -x 2240 -y 300 -defaultsOSRD
+preplace inst adder_2 -pg 1 -lvl 6 -x 2240 -y 410 -defaultsOSRD
+preplace inst ps_branch_mux -pg 1 -lvl 7 -x 2560 -y 530 -defaultsOSRD
+preplace inst pc_branch_mux -pg 1 -lvl 8 -x 2870 -y 650 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 14 -x 5140 -y 1770 -defaultsOSRD
+preplace inst unsigned_extend_0 -pg 1 -lvl 15 -x 5690 -y 1760 -defaultsOSRD
+preplace inst ps_jump_mux -pg 1 -lvl 8 -x 2870 -y 250 -defaultsOSRD
+preplace inst pc_jump_mux -pg 1 -lvl 8 -x 2870 -y 390 -defaultsOSRD
+preplace netloc Net 1 0 17 50 440 500J 270 1040J 380 NJ 380 1860J 480 NJ 480 2360J 420 2750J 470 3040J 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 6650
+preplace netloc add4_0_o 1 7 1 2700J 630n
+preplace netloc add4_1_o 1 6 1 2420 300n
+preplace netloc adder_0_o 1 10 10 3700 1330 NJ 1330 NJ 1330 4890J 1350 NJ 1350 5880J 1500 NJ 1500 NJ 1500 NJ 1500 7340
+preplace netloc adder_1_o 1 10 1 3610 930n
+preplace netloc adder_2_o 1 6 1 2390 410n
+preplace netloc alu0_0_o 1 11 1 4140 390n
+preplace netloc alu_func_reg_Q 1 10 1 3680 1490n
+preplace netloc alu_input_reg_Q 1 9 1 3360 1190n
+preplace netloc alu_op_reg_Q 1 10 1 3670 1470n
+preplace netloc alu_output_ram_cm_read_data 1 12 1 4620 380n
+preplace netloc cdb_0_cdb_tag_out 1 15 1 5920 1210n
+preplace netloc cdb_0_cdb_val_out 1 15 1 5980 1230n
+preplace netloc clk_1 1 0 17 10 470 520 280 1000 640 1480 710 1850 780 NJ 780 NJ 780 2680 780 3040 870 3310 870 3690 870 4070 890 4610 1260 4920 1370 5480 1330 6110 1420 NJ
+preplace netloc cm_sel_0_Dout 1 12 1 4590 430n
+preplace netloc cm_sel_1_Dout 1 13 1 NJ 760
+preplace netloc cm_stage_controller_ready_bits 1 1 3 550 240 NJ 240 1470
+preplace netloc cm_stage_controller_ready_en 1 3 13 1470 760 NJ 760 NJ 760 NJ 760 2680J 550 NJ 550 NJ 550 NJ 550 4100J 850 NJ 850 NJ 850 5350 450 5990
+preplace netloc cm_stage_controller_ready_select 1 3 13 1480 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 4170 830 4610J 520 NJ 520 NJ 520 5930
+preplace netloc cm_stage_controller_write_next_stage 1 3 1 1490 520n
+preplace netloc data_mem_0_read_data 1 11 1 4110 120n
+preplace netloc ex_stage_controller_ready_bits 1 0 3 50 220 NJ 220 970
+preplace netloc ex_stage_controller_ready_en 1 2 14 1040J 390 NJ 390 1840J 490 NJ 490 2370J 430 2700J 480 NJ 480 NJ 480 NJ 480 4190J 490 NJ 490 NJ 490 NJ 490 5950
+preplace netloc ex_stage_controller_ready_select 1 2 14 1010J 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 4200 250 NJ 250 NJ 250 NJ 250 6040
+preplace netloc ex_stage_controller_write_next_stage 1 2 1 990 430n
+preplace netloc fpu_output_ram_cm_read_data 1 12 1 N 620
+preplace netloc inputA_0_Dout 1 18 1 7100 1340n
+preplace netloc inputA_1_Dout 1 9 1 3300 1050n
+preplace netloc inputA_2_Dout 1 10 1 3620 1190n
+preplace netloc inputA_3_Dout 1 10 1 3650J 680n
+preplace netloc inputB_0_Dout 1 18 1 N 1440
+preplace netloc inputB_1_Dout 1 10 1 N 950
+preplace netloc inputB_2_Dout 1 10 1 3610 1290n
+preplace netloc inputB_3_Dout 1 10 1 3610J 740n
+preplace netloc inst_mem_0_out_val 1 11 1 4070J 1540n
+preplace netloc instr_translator_0_out_inst 1 12 1 NJ 1540
+preplace netloc is_stage_controller_ready_select 1 1 15 470J 250 NJ 250 NJ 250 NJ 250 2090J 500 2410J 450 2690J 490 NJ 490 NJ 490 NJ 490 4160J 500 NJ 500 NJ 500 5430J 510 5890
+preplace netloc is_stage_controller_write_next_stage 1 1 1 510 340n
+preplace netloc last_pc_Q 1 15 1 5900 750n
+preplace netloc load_input_reg_Q 1 17 1 6880 1340n
+preplace netloc load_output_ram_cm_read_data 1 12 1 4630 110n
+preplace netloc md_func_reg_Q 1 10 1 3650 780n
+preplace netloc md_input_reg_Q 1 9 1 3280 680n
+preplace netloc md_op_reg_Q 1 10 1 3640 760n
+preplace netloc mult_div_0_l 1 11 1 4120 630n
+preplace netloc mux4_0_out0 1 7 10 2750J 1170 NJ 1170 3320J 1130 NJ 1130 NJ 1130 NJ 1130 4900J 1360 NJ 1360 NJ 1360 6650
+preplace netloc mux4_0_out1 1 7 2 2740 1270 3000
+preplace netloc mux4_0_out2 1 7 3 NJ 1280 3050 1570 3320
+preplace netloc mux4_0_out3 1 7 3 NJ 1300 3060 1350 3290
+preplace netloc mux4_1_out0 1 10 2 3660J 130 4070
+preplace netloc mux4_1_out1 1 10 1 3660 330n
+preplace netloc mux4_1_out2 1 10 2 NJ 350 4160
+preplace netloc mux4_1_out3 1 10 2 NJ 370 4150
+preplace netloc mux_0_o 1 13 1 4950 410n
+preplace netloc mux_1_o 1 13 1 4880 620n
+preplace netloc mux_2_o 1 14 1 5420 740n
+preplace netloc mux_3_o 1 7 1 2720 230n
+preplace netloc precise_state_Q 1 5 1 2110 300n
+preplace netloc reg_0_Q 1 6 10 2440 410 2710J 500 NJ 500 3350 500 NJ 500 4130J 510 NJ 510 NJ 510 5470J 500 6050
+preplace netloc reg_1_Q 1 13 1 4910 920n
+preplace netloc reg_file_0_read_out_1 1 15 1 6020 640n
+preplace netloc reg_file_0_read_out_2 1 15 1 6000 660n
+preplace netloc reorder_buffer_0_branch_pc 1 0 17 20 480 530 290 1020 620 1490 700 1830J 570 NJ 570 2420 720 2730 1050 3020 1560 3340 1490 3630J 1340 4180 1370 4590 1450 NJ 1450 5500 1310 6090 1350 6660
+preplace netloc reorder_buffer_0_cdb_tag_out 1 14 3 5520 1370 NJ 1370 6580
+preplace netloc reorder_buffer_0_clear_controllers 1 0 17 30 460 540 300 1030 400 NJ 400 1830J 510 NJ 510 2400J 440 2680J 510 NJ 510 NJ 510 NJ 510 4120J 270 NJ 270 NJ 270 NJ 270 NJ 270 6630
+preplace netloc reorder_buffer_0_ex_en 1 9 8 3350 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 6570
+preplace netloc reorder_buffer_0_h 1 0 17 40 450 480 310 980 630 1500 790 NJ 790 NJ 790 NJ 790 2710J 570 NJ 570 NJ 570 NJ 570 4080J 870 NJ 870 4880 1380 NJ 1380 NJ 1380 6540
+preplace netloc reorder_buffer_0_is_en 1 1 6 490 260 NJ 260 1490J 240 NJ 240 NJ 240 2380J
+preplace netloc reorder_buffer_0_is_instr 1 6 11 2440 1380 NJ 1380 3010 1380 3360J 1360 NJ 1360 4090J 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 6600
+preplace netloc reorder_buffer_0_is_vals 1 7 10 2750 870 3010 1370 NJ 1370 NJ 1370 4060J 1400 NJ 1400 NJ 1400 NJ 1400 NJ 1400 6640
+preplace netloc reorder_buffer_0_regfile_write_addr 1 14 3 5500 410 NJ 410 6580
+preplace netloc reorder_buffer_0_regfile_write_data 1 5 12 2120 -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 5440 400 NJ 400 6530
+preplace netloc reorder_buffer_0_regfile_write_en 1 14 3 5510 420 NJ 420 6600
+preplace netloc reorder_buffer_0_retire_src 1 14 3 5490 390 NJ 390 6620
+preplace netloc reorder_buffer_0_rs_table_free 1 13 4 4930 1430 NJ 1430 5870J 1440 6630
+preplace netloc reorder_buffer_0_rs_table_free_en 1 13 4 4940 1420 NJ 1420 5890J 1430 6620
+preplace netloc reorder_buffer_0_rt_clear_controller 1 3 14 1500 -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 6590
+preplace netloc reorder_buffer_0_select_fu_cm 1 11 6 4210 860 4600 330 NJ 330 NJ 330 NJ 330 6560
+preplace netloc reorder_buffer_0_select_fu_ex 1 9 8 3360 250 NJ 250 4120J 260 NJ 260 NJ 260 NJ 260 NJ 260 6640
+preplace netloc reorder_buffer_0_select_fu_is 1 6 11 2440 1360 NJ 1360 NJ 1360 3340J 1350 NJ 1350 4110J 1380 NJ 1380 4870J 1440 NJ 1440 5860J 1450 6610
+preplace netloc reorder_buffer_0_t 1 13 4 4950 1410 NJ 1410 NJ 1410 6590
+preplace netloc rs_table_0_fu_needed 1 14 2 5430 530 5940J
+preplace netloc rs_table_0_isbranch 1 14 2 5460 760 6030J
+preplace netloc rs_table_0_load_rob 1 8 8 3060 860 NJ 860 NJ 860 4060J 880 4630 860 NJ 860 5450 470 6090J
+preplace netloc rs_table_0_rob_write_addr 1 14 2 5360 440 6100
+preplace netloc rs_table_0_rob_write_inst 1 14 2 5330 430 6110J
+preplace netloc rs_table_0_rob_write_outreg 1 14 2 5370 460 6080
+preplace netloc rs_table_0_stall 1 14 1 N 1290
+preplace netloc rt_stage_controller_0_ready_bits 1 2 3 1050 370 NJ 370 1820
+preplace netloc rt_stage_controller_0_ready_en 1 4 12 1850 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 6060
+preplace netloc rt_stage_controller_0_ready_select 1 4 12 1840 580 NJ 580 2360J 710 2690J 560 NJ 560 NJ 560 NJ 560 4090J 840 NJ 840 NJ 840 5380J 540 5920J
+preplace netloc sign_extend_0_o 1 15 1 5970 950n
+preplace netloc sign_extend_1_o 1 8 1 NJ 1440
+preplace netloc store_immediate_reg_Q 1 9 1 3330 1070n
+preplace netloc store_input_reg_Q 1 8 2 3030 1050 3290J
+preplace netloc tags_and_ready_0_in_rob_out_1 1 15 1 5870 950n
+preplace netloc tags_and_ready_0_in_rob_out_2 1 15 1 5860 970n
+preplace netloc tags_and_ready_0_tag_out_1 1 15 1 5910 910n
+preplace netloc tags_and_ready_0_tag_out_2 1 15 1 5880 930n
+preplace netloc xlslice_0_Dout 1 10 1 3600J 1430n
+preplace netloc xlslice_2_Dout 1 14 1 5390 600n
+preplace netloc xlslice_3_Dout 1 14 1 5400 620n
+preplace netloc xlslice_4_Dout 1 14 1 5350J 1660n
+preplace netloc xlslice_5_Dout 1 7 1 NJ 1440
+preplace netloc xlslice_6_Dout 1 9 1 3280 1640n
+preplace netloc xlslice_7_Dout 1 9 1 3360 1570n
+preplace netloc zero_1 1 0 9 NJ 730 NJ 730 NJ 730 NJ 730 1870 770 NJ 770 NJ 770 NJ 770 NJ
+preplace netloc xlslice_1_Dout 1 14 1 5510 1760n
+preplace netloc unsigned_extend_0_o 1 15 1 5960 890n
+preplace netloc rs_table_0_isjr 1 14 2 5340 770 6010J
+preplace netloc rs_table_0_isjump 1 14 2 5410 480 6070J
+preplace netloc ps_jump_mux_o 1 4 5 1870 130 NJ 130 NJ 130 NJ 130 3000
+preplace netloc pc_branch_mux_o 1 7 2 2740 160 2990
+preplace netloc pc_jump_mux_o 1 8 1 3060 390n
+preplace netloc reorder_buffer_0_jump_pc 1 7 10 2730 -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 NJ -30 6540
+preplace netloc reorder_buffer_0_jump_addr 1 7 10 2750 170 NJ 170 NJ 170 NJ 170 4210J 230 NJ 230 NJ 230 NJ 230 NJ 230 6550
+preplace cgraphic comment_2 place top 0 10 textcolor 4 linecolor 3
+levelinfo -pg 1 -20 260 760 1260 1660 1980 2240 2560 2870 3170 3480 3880 4400 4750 5140 5690 6320 6770 6990 7220 7360
+pagesize -pg 1 -db -bbox -sgen -160 -40 7360 2190
+",
+   "linktoobj_comment_1":"",
+   "linktoobj_comment_2":"",
+   "linktotype_comment_1":"bd_design",
+   "linktotype_comment_2":"bd_design"
+}
+0
+{
+   "/comment_1":"comment_1",
+   "/comment_2":"comment_2"
+}

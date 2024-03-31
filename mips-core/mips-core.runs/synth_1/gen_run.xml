@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1711288926" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/add4.dcp">
+  <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
+  <File Type="RDS-DCP" Name="design_1_wrapper.dcp"/>
+  <File Type="RDS-UTIL" Name="design_1_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="design_1_wrapper_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/inst_mem.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/inst_mem.vhd"/>
+        <Attr Name="ImportTime" Val="1710718826"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/reg_file.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/reg_file.vhd"/>
+        <Attr Name="ImportTime" Val="1710611879"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sign_extend.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/sign_extend.vhd"/>
+        <Attr Name="ImportTime" Val="1710721686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/tags_and_ready.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/tags_and_ready.vhd"/>
+        <Attr Name="ImportTime" Val="1710703843"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/reorder_buffer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/reorder_buffer.vhd"/>
+        <Attr Name="ImportTime" Val="1710808978"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/rs_table.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/rs_table.vhd"/>
+        <Attr Name="ImportTime" Val="1710702957"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/mux4.vhd"/>
+        <Attr Name="ImportTime" Val="1710636698"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/data_mem.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/data_mem.vhd"/>
+        <Attr Name="ImportTime" Val="1710648219"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/adder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/adder.vhd"/>
+        <Attr Name="ImportTime" Val="1710553052"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/alu0.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/alu0.vhd"/>
+        <Attr Name="ImportTime" Val="1710721747"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/instr_translator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/instr_translator.vhd"/>
+        <Attr Name="ImportTime" Val="1710697184"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mult_div.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/mult_div.vhd"/>
+        <Attr Name="ImportTime" Val="1710722046"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/cdb.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/cdb.vhd"/>
+        <Attr Name="ImportTime" Val="1710702431"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/mux.vhd"/>
+        <Attr Name="ImportTime" Val="1710552891"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/add4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/add4.vhd"/>
+        <Attr Name="ImportTime" Val="1710703176"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/reg0.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/reg0.vhd"/>
+        <Attr Name="ImportTime" Val="1710723302"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stage_controller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/bd/design_1/design_1.bd"/>
+        <Attr Name="ImportTime" Val="1710857761"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/design_1/hdl/design_1_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/shift_left_twice.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/shift_left_twice.vhd"/>
+        <Attr Name="ImportTime" Val="1710552681"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/reg.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/reg.vhd"/>
+        <Attr Name="ImportTime" Val="1710723284"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/controller.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/controller.vhd"/>
+        <Attr Name="ImportTime" Val="1710560234"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/pc.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../imports/sources_1/new/pc.vhd"/>
+        <Attr Name="ImportTime" Val="1710607671"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="design_1_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/add4.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_instr_translator_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_inst_mem_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_alu0_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg_file_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_stage_controller_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reorder_buffer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_data_mem_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_rs_table_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_stage_controller_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_mux4_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_cdb_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sign_extend_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_reg0_0_13"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_add4_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_mux_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_adder_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_mux_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_tags_and_ready_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_stage_controller_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_mux_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_stage_controller_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_mult_div_0_0"/>
+</GenRun>
